@@ -1,0 +1,23 @@
+{
+  "project": "Windows Game Emulator",
+  "prototype": 4,
+  "runtime": [
+    "Wine",
+    "Box64",
+    "Box86/Box32 when required"
+  ],
+  "graphics": [
+    "Mesa",
+    "DXVK",
+    "VKD3D optional"
+  ],
+  "features": [
+    "game file import",
+    "game library",
+    "per-game settings",
+    "touch controls",
+    "runtime status",
+    "Android packaging target"
+  ],
+  "note": "Third-party native runtime binaries are not included in this prototype."
+}
